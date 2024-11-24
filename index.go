@@ -15,3 +15,9 @@ func sum(x int, y int) int {
 
 	return x + y
 }
+
+/* NOTE: similoar functions can be declared all at once like this example below. */
+func similarDatatypes(x, y int) (int, int) {
+
+	return x, y
+}
