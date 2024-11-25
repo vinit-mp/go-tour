@@ -7,6 +7,9 @@ func main() {
 
 	println("%v ", sum(4, 5))
 
+	a, b := similarDatatypes(8, 9)
+
+	println("", a, b)
 }
 
 /* NOTE: Unlike c ++ and dart in this language the datatype declaration succeeds the variable declaration.  and the return type preseeds the function lambda.  */
